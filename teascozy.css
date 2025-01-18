@@ -1,5 +1,4 @@
 html {
-    background-color: black;
     color: seashell;
     font-family: Helvetica;
     font-size: 22px;
@@ -13,6 +12,8 @@ header {
     border-bottom: 1px solid seashell;
     height: 69px;
     width: 100%;
+    background-color: black;
+
 }
 
 img {
@@ -45,7 +46,19 @@ li a {
     text-align: center;
 }
 
-#imghead {
+main {
+    background-color: #000;
+}
+
+.img {
     height: 700px;
-    width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*sez58y*_gcl_au*MTczOTk0MjU1NS4xNzM2ODc3NjY0*_ga*MjIzOTA4NTMuMTcyOTM4MTQ5MQ..*_ga_3LRZM6TM9L*MTczNzE1OTYyNC43MS4xLjE3MzcxNTk2NDMuMC4wLjA.);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+
 }
